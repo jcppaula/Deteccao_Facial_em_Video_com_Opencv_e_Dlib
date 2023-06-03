@@ -11,10 +11,12 @@ Este é um projeto de Detector Facial. O programa utiliza técnicas de Visão Co
 ## Estrutura do Projeto
 
 A estrutura do projeto é a seguinte:
-```.
+```
+.
 ├── main.py
 ├── requirements.txt
-└── shape_predictor_68_face_landmarks.dat```
+└── shape_predictor_68_face_landmarks.dat
+```
 
 ## Descrição dos arquivos:
 
