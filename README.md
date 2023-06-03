@@ -2,7 +2,7 @@
 
 # Detecção Facial em vídeo usando OpenCV e Dlib
 
-Este é um projeto de Detector Facial. O programa utiliza técnicas de Visão Computacional e Aprendizado de Máquina para identificar e localizar pontos específicos no rosto de uma pessoa, como os olhos, nariz, boca em um fluxo de vídeo em tempo real.
+Este é um projeto de um Detector Facial. O programa utiliza técnicas de Visão Computacional e Aprendizado de Máquina para identificar e localizar pontos específicos no rosto de uma pessoa, como os olhos, nariz e boca em um fluxo de vídeo em tempo real.
 
 <p align="center">
   <img src="deteccao_facial_video.gif" >
@@ -20,7 +20,7 @@ A estrutura do projeto é a seguinte:
 
 ## Descrição dos arquivos:
 
-* `main.py`: som de alarme que será tocado quando sinais de fadiga são detectados.
+* `main.py`: script Python principal que contém a lógica do detector facial.
 * `requirements.txt`: arquivo que lista as dependências necessárias para executar o programa.
 *  `shape_predictor_68_face_landmarks.dat`: shape_predictor_68_face_landmarks.dat - [baixe por esse link](https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat)
 
@@ -30,6 +30,18 @@ Para executar este projeto, você precisa ter o Python instalado em seu sistema,
 ```
 pip install -r requirements.txt
 ```
+
+## Detalhes do Projeto
+
+Este programa detecta os marcos faciais no rosto de uma pessoa em um fluxo de vídeo. O processo ocorre nas seguintes etapas:
+
+1. Captação do fluxo de vídeo em tempo real através da webcam.
+2. Detecção de rostos na imagem utilizando o detector de rostos do dlib.
+2. Detecção dos marcos faciais usando o preditor de marcos faciais do dlib.
+
+O programa utiliza o detector de marcos faciais do dlib para determinar a posição dos olhos, olhos nariz e boca da pessoa. 
+
+
 
 
 
