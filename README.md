@@ -8,15 +8,15 @@ Este é um projeto de Detector Facial. O programa utiliza técnicas de Visão Co
   <img src="deteccao_facial_video.gif" >
 </p>
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 
 A estrutura do projeto é a seguinte:
-.
+```.
 ├── main.py
 ├── requirements.txt
-└── shape_predictor_68_face_landmarks.dat
+└── shape_predictor_68_face_landmarks.dat```
 
-##Descrição dos arquivos:
+## Descrição dos arquivos:
 
 * `main.py`: som de alarme que será tocado quando sinais de fadiga são detectados.
 * `requirements.txt`: arquivo que lista as dependências necessárias para executar o programa.
@@ -25,7 +25,7 @@ A estrutura do projeto é a seguinte:
 #Pré-requisitos
 Para executar este projeto, você precisa ter o Python instalado em seu sistema, eu estou usando a versão *3.8.5*. As dependências do projeto são listadas no arquivo requirements.txt e podem ser instaladas com o seguinte comando:
 
-pip install -r requirements.txt
+```pip install -r requirements.txt```
 
 
 
