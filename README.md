@@ -37,7 +37,9 @@ Este programa detecta os marcos faciais no rosto de uma pessoa em um fluxo de v�
 
 1. Captação do fluxo de vídeo em tempo real através da webcam.
 2. Detecção de rostos na imagem utilizando o detector de rostos do dlib.
-2. Detecção dos marcos faciais usando o preditor de marcos faciais do dlib.
+3. Detecção dos marcos faciais usando o preditor de marcos faciais do dlib.
+4. Mostra o vídeo com o quadro com os pontos faciais e retângulo.
+
 
 O programa utiliza o detector de marcos faciais do dlib para determinar a posição dos olhos, olhos nariz e boca da pessoa. 
 
