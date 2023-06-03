@@ -27,7 +27,9 @@ A estrutura do projeto é a seguinte:
 #Pré-requisitos
 Para executar este projeto, você precisa ter o Python instalado em seu sistema, eu estou usando a versão *3.8.5*. As dependências do projeto são listadas no arquivo requirements.txt e podem ser instaladas com o seguinte comando:
 
-```pip install -r requirements.txt```
+```
+pip install -r requirements.txt
+```
 
 
 
