@@ -22,7 +22,7 @@ A estrutura do projeto é a seguinte:
 
 * `main.py`: script Python principal que contém a lógica do detector facial.
 * `requirements.txt`: arquivo que lista as dependências necessárias para executar o programa.
-*  `shape_predictor_68_face_landmarks.dat`: shape_predictor_68_face_landmarks.dat - [baixe por esse link](https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat)
+*  `shape_predictor_68_face_landmarks.dat`: arquivo de dados usado pelo detector de marcos faciais do dlib. - [baixe por esse link](https://github.com/italojs/facial-landmarks-recognition/raw/master/shape_predictor_68_face_landmarks.dat)
 
 ## Pré-requisitos
 Para executar este projeto, você precisa ter o Python instalado em seu sistema, eu estou usando a versão *3.8.5*. As dependências do projeto são listadas no arquivo requirements.txt e podem ser instaladas com o seguinte comando:
